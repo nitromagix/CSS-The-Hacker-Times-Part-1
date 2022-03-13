@@ -45,9 +45,15 @@ main img {
 }
 
 nav {
+   background-color: white;
+   position:sticky;
+   top:0px;
    font-size: .9em;
    text-align: center;
    font-weight: 400;
+   border-width: 1px 0;
+   border-style: solid;
+   border-color: #eee;
 }
 
 p {
@@ -65,13 +71,6 @@ section {
 
 section:nth-child(2) {
    float: right;
-}
-
-
-nav {
-   border-width: 1px 0;
-   border-style: solid;
-   border-color: #eee;
 }
 
 ul {
