@@ -119,7 +119,7 @@ ul {
    height: 120px;
 }
 
-.even-more-articles > section p {
+.even-more-articles > section > p {
    margin: 0 5px;
 }
 
